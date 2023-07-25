@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar navigation bar</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="nb-container">
+          <div class="nb-title">Navbar</div>
+          <button id="nb-toggle" class="nb-toggle">
+            <div class="nb-i-line"></div>
+            <div class="nb-i-line"></div>
+            <div class="nb-i-line"></div>
+          </button>
+        </div>
+      </nav>
+      <div class="container">
+        <!-- Sidebar -->
+        <div id="sidebar" class="sidebar">
+          <div class="sb-container">
+            <div class="sb-body">
+              <h5 class="sb-title">Relevant</h5>
+              <div class="div-line"></div>
+              <a class="sb-item" href="#">
+                <img src="./icons/home.svg" alt="home icon" />
+                Home
+              </a>
+              <a class="sb-item" href="#">
+                <img src="./icons/search.svg" alt="search icon" />
+                Search
+              </a>
+              <a class="sb-item" href="#">
+                <img src="./icons/grid.svg" alt="products icon" />
+                Products
+              </a>
+              <a class="sb-item" href="#">
+                <img src="./icons/layout.svg" alt="dashboard icon" />
+                Dashboard
+              </a>
+            </div>
+            <div class="sb-footer">
+              <img src="./icons/user.svg" alt="user icon" class="user-img" />
+              <h3 class="user-name">I am an User123</h3>
+              <button class="sb-settings-btn" onclick="alert('Settings!')">
+                <img src="./icons/settings.svg" alt="settings icon" />
+              </button>
+              <button class="sb-logout-btn" onclick="alert('Logout!')">
+                <img src="./icons/log-out.svg" alt="logout icon" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Content -->
+        <div class="content">
+          <h2>Content</h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
